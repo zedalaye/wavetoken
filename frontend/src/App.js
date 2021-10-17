@@ -221,7 +221,7 @@ export default function App() {
 
           getTotalWaves();
           getTopWaver();
-          getAllWaves();
+          /* getAllWaves(); */
 
         } else {
           console.log("Ethereum object doesn't exist!");
