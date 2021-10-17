@@ -39,7 +39,12 @@ PRIVATE_KEY=<your private key>
 * `cd` into the `frontend` folder
 * `yarn install`
 * `yarn build`
+
+## Deploy on surge.sh
+
 * Install `surge.sh` with `npm install -g surge`
 * `cd build`
 * `mv index.html 200.html`
-* `surge`
+* `surge` (yeah into the `build` directory)
+
+_The first time you'll deploy to surge.sh you'll be asked to create an account._
